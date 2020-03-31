@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/profileItemId"
+            android:title="Profile"
+            android:icon="@drawable/pro_1"/>
+        <item android:id="@+id/homeItemId"
+            android:title="Home"
+            android:icon="@drawable/home_2"/>
+        <item android:id="@+id/cropDetailsIemId"
+            android:title="Crops Details"
+            android:icon="@drawable/crops_icon"/>
+        <item android:id="@+id/aoItemId"
+            android:title="Info of Agri-Officer"
+            android:icon="@drawable/ao_info_icon"/>
+        <item android:id="@+id/hospitalItemId"
+            android:title="Info of Vetenary Hospital"
+            android:icon="@drawable/medical_icon"/>
+        <item android:id="@+id/historyId"
+            android:title="My History"
+            android:icon="@drawable/history_icon"/>
+        <item android:id="@+id/noticeId"
+            android:title="Announcement"
+            android:icon="@drawable/announcement_icon"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/logout_id"
+            android:title="Log Out"
+            android:icon="@drawable/logout"/>
+    </group>
+
+</menu>

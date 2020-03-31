@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/linearLayoutId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/aoProfileImageId"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profile"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/aoClickToChangePicId"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Select Picture"
+                android:textColor="#03A9F4"
+                android:onClick="clickToChangeProPic"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutId2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_below="@id/linearLayoutId">
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aoNameEditTextId"
+                android:background="@drawable/background_rect"
+                android:padding="15dp"
+                android:hint="Name"
+                android:inputType="text"/>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aoPhoneEditTextId"
+                android:background="@drawable/background_rect"
+                android:padding="15dp"
+                android:hint="Phone"
+                android:inputType="number"/>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aoDesignationEditTextId"
+                android:background="@drawable/background_rect"
+                android:padding="15dp"
+                android:hint="Designation"
+                android:inputType="text"/>
+            <EditText
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aoNidEditTextId"
+                android:background="@drawable/background_rect"
+                android:padding="15dp"
+                android:hint="NID"
+                android:inputType="number"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearLayoutId2"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/aoRegisterButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:background="@drawable/input_background"
+                android:layout_marginRight="10dp"
+                android:text="Register"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "460115606201",
+    "firebase_url": "https://krishibondhuapp-ad415.firebaseio.com",
+    "project_id": "krishibondhuapp-ad415",
+    "storage_bucket": "krishibondhuapp-ad415.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460115606201:android:bb389d96c4f0f3126a7968",
+        "android_client_info": {
+          "package_name": "com.example.krishibondhuapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460115606201-0afljl3u0cq6mta6l9jn88qd6a2lqtnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishibondhuapp",
+            "certificate_hash": "d1def2dd3cf0d2a5708584199aad821e584b69cd"
+          }
+        },
+        {
+          "client_id": "460115606201-een1nisecf6hcmssknjfos5vtrna4s1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA65K4sbKIctYHawK4vDuj9C4QekXFP3F4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460115606201-een1nisecf6hcmssknjfos5vtrna4s1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

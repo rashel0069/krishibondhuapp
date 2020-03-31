@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:gravity="end">
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Fill Up the form"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/agri_officer_ImageViewId"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/profile" />
+
+
+                <EditText
+                    android:id="@+id/agriofficerNameId"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Name"
+                    android:padding="10dp"
+                    android:background="@drawable/edit_text_shape"/>
+
+                <EditText
+                    android:id="@+id/agri_officerDesignation_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_text_shape"
+                    android:hint="Designation"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/agri_officerLocation_Id"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Location"
+                    android:padding="10dp"
+                    android:background="@drawable/edit_text_shape"/>
+                <EditText
+                    android:id="@+id/agriofficer_PhoneId"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Phone no"
+                    android:padding="10dp"
+                    android:background="@drawable/edit_text_shape"/>
+
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/agriofficer_SaveButton_Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="55dp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/rounded_button"
+                android:padding="12dp"
+                android:text="Save" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

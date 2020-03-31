@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTPActivity">
+    <RelativeLayout
+        android:padding="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ProgressBar
+            android:id="@+id/verify_progressBar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/vertxt2"
+            android:layout_alignTop="@+id/vertext"
+            android:layout_alignEnd="@+id/vertext"
+            android:layout_alignBottom="@+id/vertxt2"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="127dp"
+            android:layout_marginBottom="-1dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/verImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/otp_send" />
+
+        <TextView
+            android:id="@+id/vertext"
+            android:layout_width="351dp"
+            android:layout_height="19dp"
+            android:layout_below="@+id/verImage"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:text="Please Enter the Verification Code"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/vertxt2"
+            android:layout_width="351dp"
+            android:layout_height="42dp"
+            android:layout_below="@+id/vertext"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/otp_second_page"/>
+
+        <TextView
+            android:id="@+id/text_view_countdown"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/vertxt2"
+            android:layout_centerHorizontal="true"
+            android:text="00.30"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#5E8800"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/verCodeid"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/text_view_countdown"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:inputType="phone"
+            android:background="@drawable/edit_text_shape"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/signin_buttonid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/verCodeid"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/defult_button"
+            android:text="Verify"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/resend_buttonid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signin_buttonid"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/defult_button"
+            android:text="Resend Code"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</ScrollView>

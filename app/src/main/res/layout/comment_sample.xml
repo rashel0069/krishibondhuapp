@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="7dp"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    android:id="@+id/cardViewId">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/commentCimageId"
+                android:src="@drawable/profile"/>
+
+            <TextView
+                android:id="@+id/commentNameTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="17dp"
+                android:gravity="left"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:hint="Full Name"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/commentShowTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:gravity="left"
+                android:textSize="15sp"
+                tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

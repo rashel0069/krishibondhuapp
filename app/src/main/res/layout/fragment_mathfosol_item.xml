@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".MathfosolItemFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/itemImageId"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/math_fosol"
+            android:scaleType="fitCenter"
+            android:layout_height="250dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:id="@+id/itemTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textAlignment="viewStart"
+            android:padding="5dp"
+            android:text="@string/hello_blank_fragment"
+            android:gravity="start" />
+
+    </LinearLayout>
+
+
+</ScrollView>

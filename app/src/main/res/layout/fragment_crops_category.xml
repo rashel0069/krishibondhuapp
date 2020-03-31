@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".CropsCategoryFragment">
+
+    <GridView
+        android:id="@+id/cropsGridId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:layout_margin="5dp"
+        android:verticalSpacing="8dp"
+        android:horizontalSpacing="8dp"
+        />
+
+
+
+
+</FrameLayout>

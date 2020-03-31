@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.krishibondhuapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_fina"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_fina"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Email_Registration"></activity>
+        <activity android:name=".Email_Login" />
+        <activity android:name=".AudioPost" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SellingActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".OTPActivity"
+                  android:label="Verify Phone Number" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".NewsFeedActivity" />
+        <activity android:name=".DrawerActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
