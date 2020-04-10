@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp"
-    tools:context=".Email_Login">
+    tools:context=".Activity.Email_Login">
 
     <LinearLayout
         android:layout_width="match_parent"

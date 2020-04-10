@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/grey"
-    tools:context=".Info_of_Agriculture_Officer">
+    tools:context=".Fragment.Info_of_Agriculture_Officer">
 
 
     <LinearLayout
